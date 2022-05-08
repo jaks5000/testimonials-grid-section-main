@@ -23,6 +23,11 @@
             .attribution a {
                 color: hsl(228, 45%, 44%);
             }
+            .logo {
+                position: absolute;
+                padding-left: 320px;
+                padding-top: 10px;
+            }
             body {
                 font-family: 'Barlow Semi Condensed', sans-serif;
                 background-color: hsl(210, 46%, 95%);
@@ -51,6 +56,7 @@
             }
             .card-1 {
                 background-color: hsl(263, 55%, 52%);
+                position: relative;
                 color: white;
                 grid-area: card-1;
             }
@@ -101,6 +107,11 @@
         }
         
         @media (max-width: 500px) {
+            .logo {
+                position: absolute;
+                padding-left: 210px;
+                padding-top: 10px;
+            }
             .parent {
                 display: unset;
             }
@@ -117,6 +128,7 @@
 
         <section class="card-1 cards">
             <div class="profile-1 profiles">
+                <img src="https://raw.githubusercontent.com/jaks5000/Grid-Challange/c0380913a4281827485e4807fbcf36f1b79cda4a/bg-pattern-quotation.svg" alt="Img Not Found" class="logo">
                 <img src="https://raw.githubusercontent.com/jaks5000/Grid-Challange/main/image-daniel.jpg" alt="Img Not Found" class="img img-1">
                 <div class="profile-info id-1">
                     <h4 class="white-card1-h4 white">Daniel Clifford</h4>
